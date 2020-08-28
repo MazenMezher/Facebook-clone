@@ -1,5 +1,5 @@
-import React from 'react'
-import Icon from "./Images/Facebook-icon.png"
+import React from 'react';
+import Icon from "./Images/Facebook-icon.png";
 import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from "@material-ui/icons/Home";
