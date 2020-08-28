@@ -1,5 +1,4 @@
 import React from 'react';
-import Icon from "./Images/Facebook-icon.png";
 import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from "@material-ui/icons/Home";
@@ -18,7 +17,7 @@ function Header() {
     return (
         <div className="header">
             <div className="header__left">
-            <img src={Icon} alt=""/>
+            <img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" alt=""/>
             <div className="header__input">
                 <SearchIcon />
                 <input placeholder="Search Facebook" type="text"/>
